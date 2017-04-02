@@ -7,14 +7,14 @@
     <artifactId>crude</artifactId>
     <version>0.0.1</version>
 
-	<parent>
+    <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.2.RELEASE</version>
     </parent>
-	
+    
     <dependencies>
-	    <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
@@ -27,9 +27,18 @@
             <artifactId>h2</artifactId>
         </dependency>
     </dependencies>
-	
+    
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+    
 </project>
