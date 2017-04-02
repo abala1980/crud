@@ -4,6 +4,7 @@
 .gradle
 .idea
 *.iml
+*.jmx
 bin
 build
 target
