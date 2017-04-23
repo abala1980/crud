@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/* Application
+web: java $JAVA_OPTS -cp target/classes/demo/* Application
