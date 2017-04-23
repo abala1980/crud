@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes/demo/* Application
+web:    java -jar target/crude-0.0.1.jar
